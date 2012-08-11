@@ -1,0 +1,9 @@
+[
+    {"caption":"-"},
+    {
+        "caption": "MagentoUtils: Copy to custom package",
+        "command": "magento_utils_copy_to_package",
+        "args": { "paths": [] }
+    },
+    {"caption":"-"}
+]

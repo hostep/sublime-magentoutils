@@ -18,8 +18,8 @@ You can define the package/theme copying on a per-project base by defining this 
 {
     "magento_utils_packages_to_copy_between":
     {
-        "base/default/": "custom/default/",
-        "default/default/": "custom/default/",
+        "base/default": "custom/default",
+        "default/default": "custom/default",
         "parent/default": "custom/default"     # Usefull for Magento CE >= 1.9 parent/child theme support
     }
 }
@@ -37,11 +37,11 @@ I'm considering of adding a feature where you can copy a template from the same 
 {
     "magento_utils_packages_to_copy_between":
     {
-        "base/default/": "custom/default/",
-        "default/default/": "custom/default/",
-        "base/default/": "custom/christmas/",
-        "default/default/": "custom/christmas/",
-        "custom/default/": "custom/christmas/"
+        "base/default": "custom/default",
+        "default/default": "custom/default",
+        "base/default": "custom/christmas",
+        "default/default": "custom/christmas",
+        "custom/default": "custom/christmas"
     }
 }
 ```

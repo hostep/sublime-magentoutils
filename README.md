@@ -20,7 +20,7 @@ You can define the package/theme copying on a per-project base by defining this 
     {
         "base/default": "custom/default",
         "default/default": "custom/default",
-        "parent/default": "custom/default"     # Usefull for Magento CE >= 1.9 parent/child theme support
+        "parent/default": "custom/default"     # Useful for Magento CE >= 1.9 parent/child theme support
     }
 }
 ```
@@ -49,4 +49,4 @@ I'm considering of adding a feature where you can copy a template from the same 
 ## Issues
 
 I noticed a certain issue when sometimes the menu item isn't showing when it should, you can get around by right clicking the file a second time, then it will appear again.  
-(For future notice: it has something to do with the fact that the plugin can't get access to the project settings for some strange reason...)
+(For future reference: it has something to do with the fact that the plugin can't get access to the project settings for some strange reason...)

@@ -1,8 +1,8 @@
 [
     {"caption":"-"},
     {
-        "caption": "MagentoUtils: Copy to custom package",
-        "command": "magento_utils_copy_to_package",
+        "caption": "MagentoUtils: Copy to other directory",
+        "command": "magento_utils_copy_to_other_directory",
         "args": { "paths": [] }
     },
     {"caption":"-"}

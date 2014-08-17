@@ -48,5 +48,6 @@ I'm considering of adding a feature where you can copy a template from the same 
 
 ## Issues
 
-I noticed a certain issue when sometimes the menu item isn't showing when it should, you can get around by right clicking the file a second time, then it will appear again.  
-(For future reference: it has something to do with the fact that the plugin can't get access to the project settings for some strange reason...)
+I noticed a certain issue when sometimes the MagentoUtils menu item isn't showing when it should.  
+It only seems to be happening when the file wasn't opened in Sublime before you right click it. Then Sublime will open the file without creating a new tab, but while opening the file the right click context menu is already showing, and for some reason the MagentoUtils submenu won't appear. It seems like the file isn't completely loaded/opened yet in Sublime when this happens.  
+The best way to get around it is to explicitly open the file in a new tab and then right clicking the file in the sidebar.

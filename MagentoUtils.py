@@ -64,7 +64,9 @@ class MagentoUtilsCopyToOtherDirectoryCommand(sublime_plugin.WindowCommand):
             project_specific_packages_with_prefixes["app/design/frontend/%s/" % from_path] = "app/design/frontend/%s/" % to_path
             project_specific_packages_with_prefixes["skin/frontend/%s/" % from_path] = "skin/frontend/%s/" % to_path
 
-        return dict(MagentoUtilsCopyToOtherDirectoryCommand.default_copy_paths.items() + project_specific_packages_with_prefixes.items())
+        copyPaths = MagentoUtilsCopyToOtherDirectoryCommand.default_copy_paths.copy()
+        copyPaths.update(project_specific_packages_with_prefixes)
+        return copyPaths
 
     @staticmethod
     def __validateAndGetToPath(path):

@@ -1,4 +1,4 @@
-# Magento Utils plugin for Sublime Text 2
+# Magento Utils for Sublime Text 2 & 3
 
 ## Provides copying specific files from one directory to another
 
